@@ -280,8 +280,8 @@ local config = {
         },
         -- Ctrl+Alt+T 垂直新 tab
         {
-            key = "/",
-            mods = "CTRL",
+            key = "T",
+            mods = "SHIFT|CTRL|ALT",
             action = wezterm.action.SplitPane({
                 direction = 'Down',
                 top_level = true,
