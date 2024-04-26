@@ -119,14 +119,14 @@ local config = {
     colors = {
 
         -- 默认文本颜色
-        foreground = "#0ABBF1",
+        foreground = "#1F6EC9",
         -- 终端背景颜色
         background = "#151415",
 
         -- 光标是块时，光标的颜色
         cursor_bg = "#86DB45",
         -- 块状光标移动至字符时，字符的颜色
-        cursor_fg = "#7431E9",
+        cursor_fg = "#622E96",
         --当光标样式设置为Block时，指定光标的边框颜色，
         --或当光标样式设置为时垂直条或水平条的颜色。
         --加横线或下划线。
@@ -144,8 +144,8 @@ local config = {
         --窗格之间分割线的颜色
         split = "#6272a4",
 
-        ansi = { "#21222C", "#FF5555", "#50FA7B", "#F1FA8C", "#BD93F9", "#FF79C6", "#8BE9FD", "#F8F8F2" },
-        brights = { "#6272A4", "#FF6E6E", "#69FF94", "#FFFFA5", "#D6ACFF", "#FF92DF", "#A4FFFF", "#FFFFFF" },
+        ansi = { "#21222C", "#FF5555", "#50FA7B", "#F1FA8C", "#27E1D5", "#FF79C6", "#8BE9FD", "#9FA816" },
+        brights = { "#1A9938", "#FF6E6E", "#69FF94", "#25A948", "#21BEDD", "#FF92DF", "#A4FFFF", "#DA9A56" },
 
 
         -- tab_bar = {
