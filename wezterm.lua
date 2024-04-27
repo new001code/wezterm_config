@@ -339,7 +339,7 @@ local config = {
 	-- 程序退出后立即关闭窗口
 	exit_behavior = "Close",
 	-- 反转光标颜色
-	-- force_reverse_video_cursor = true,
+	force_reverse_video_cursor = true,
 
 	mouse_bindings = {
 		{
